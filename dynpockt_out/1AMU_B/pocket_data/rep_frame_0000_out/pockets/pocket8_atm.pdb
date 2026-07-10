@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.1703
+HEADER 1  - Drug Score                        : 0.0100
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.7388
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3994
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 22.6364
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.7515
+HEADER 10  -Pocket volume (convex hull)       : 15.8553
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 17.8947
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.8261
+ATOM   1637   CB GLN A 330       6.730   5.370 -16.830  0.00  0.00           C 0
+ATOM    941   CA PHE A 190       1.450   7.400 -15.130  0.00  0.00           C 0
+ATOM    939    O VAL A 189       1.180   9.570 -16.850  0.70  1.07           O 0
+ATOM    958   CB ASN A 193       0.670   9.350 -19.940  0.00  0.00           C 0
+ATOM    937    C VAL A 189       1.830   9.750 -15.820  0.00  0.00           C 0
+ATOM    938   CB VAL A 189       3.800  11.290 -16.060  0.00  0.00           C 0
+ATOM   1642   CB ASN A 331      10.880   6.050 -14.450  0.00  0.00           C 0
+ATOM     84    O ALA A  16      10.540   9.720 -18.160  0.56  2.14           O 0
+ATOM     93   CB TYR A  18       8.300  11.990 -14.940  0.00  0.00           C 0
+ATOM    923   CB ASN A 186       7.690   8.550 -11.270  0.00  0.00           C 0
+ATOM    924    O ASN A 186       4.850   9.040 -12.830  0.67  3.21           O 0
+ATOM     89    O GLU A  17       7.800  11.720 -18.260  0.00  0.00           O 0
+ATOM    940    N PHE A 190       2.080   8.700 -14.910  0.67  1.09           N 0
+ATOM    963   CB SER A 194      -0.480   4.670 -18.190  0.00  0.00           C 0
+ATOM    943   CB PHE A 190       1.990   6.360 -14.140  0.00  0.00           C 0
+ATOM     83   CB ALA A  16       8.370   7.990 -19.860  0.00  0.00           C 0
+ATOM   1630   CA ILE A 329       5.290   1.210 -15.690  0.00  0.00           C 0
+ATOM   1634    N GLN A 330       6.360   3.060 -16.100  0.76  1.09           N 0
+ATOM   1632   CB ILE A 329       4.600   1.850 -14.460  0.00  0.00           C 0
+TER
+END

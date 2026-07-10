@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.2401
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9268
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4318
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 73.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.3305
+HEADER 10  -Pocket volume (convex hull)       : 11.1846
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7000
+ATOM    385   CB ILE A  77      -0.890  13.340  10.350  0.00  0.00           C 0
+ATOM    425   CB LEU A  85      -7.020  13.850   7.060  0.00  0.00           C 0
+ATOM    395   CB MET A  79      -6.580  13.540  11.690  0.00  0.00           C 0
+ATOM    423   CA LEU A  85      -6.530  15.280   7.290  0.00  0.00           C 0
+ATOM    386    O ILE A  77      -1.790  10.930  11.700  0.58  5.36           O 0
+ATOM    426    O LEU A  85      -4.500  15.970   6.110  0.71  2.14           O 0
+ATOM    492   CB TYR A  99       2.810  13.380   6.730  0.00  0.00           C 0
+ATOM    502   CB PRO A 101      -0.430   8.030   7.760  0.00  0.00           C 0
+ATOM    444   CB ILE A  89      -1.590  15.180   4.100  0.00  0.00           C 0
+ATOM    500   CA PRO A 101       0.140   8.580   9.070  0.00  0.00           C 0
+ATOM    499    N PRO A 101       1.530   8.910   8.730  0.45  1.09           N 0
+ATOM   1037   CB ILE A 209      -4.510   7.460   6.430  0.00  0.00           C 0
+ATOM    504    N ILE A 102      -0.750   7.790  11.160  0.00  0.00           N 0
+ATOM    508    O ILE A 102      -3.410   7.330  12.710  0.44  4.29           O 0
+ATOM    396    O MET A  79      -7.440  10.210  11.810  0.32  6.43           O 0
+ATOM    392    N MET A  79      -5.410  11.770  12.930  0.00  0.00           N 0
+TER
+END

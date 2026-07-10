@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.2079
+HEADER 1  - Drug Score                        : 0.0239
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.8799
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4050
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 12.8571
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.7857
+HEADER 9  - Pocket volume (Monte Carlo)       : 347.0395
+HEADER 10  -Pocket volume (convex hull)       : 20.6781
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 20.9091
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 0.7857
+ATOM   1405   CB SER A 283      -9.650 -15.790  -9.320  0.00  0.00           C 0
+ATOM   1420   CB LEU A 286     -12.360 -12.070  -9.620  0.00  0.00           C 0
+ATOM   2196   CB GLN A 444     -11.350 -16.350  -5.090  0.00  0.00           C 0
+ATOM   1402    N SER A 283      -8.330 -13.720  -9.380  0.50  2.19           N 0
+ATOM   1281   CB PRO A 258      -8.610  -9.500  -5.010  0.00  0.00           C 0
+ATOM   1283    N THR A 259     -10.330  -9.090  -2.270  0.00  0.00           N 0
+ATOM   1284   CA THR A 259     -11.090  -9.710  -1.190  0.00  0.00           C 0
+ATOM   1280    C PRO A 258     -10.740  -9.040  -3.740  0.00  0.00           C 0
+ATOM   2039    N ARG A 413      -5.970  -9.680   1.890  0.00  0.00           N 0
+ATOM   2037   CB ILE A 412      -4.120 -11.710   4.020  0.00  0.00           C 0
+ATOM   2212    O PRO A 447      -4.940 -16.210   1.930  0.62  9.64           O 0
+ATOM   2035   CA ILE A 412      -4.150 -11.000   2.640  0.00  0.00           C 0
+ATOM   1398   CA THR A 282      -7.010 -12.240  -8.250  0.00  0.00           C 0
+ATOM   1282    O PRO A 258     -11.830  -9.440  -4.130  0.60  3.21           O 0
+ATOM   1301   CB VAL A 262     -14.880 -11.560  -3.900  0.00  0.00           C 0
+ATOM   2206   CB GLN A 446      -7.000 -15.760  -2.570  0.00  0.00           C 0
+ATOM   1286   CB THR A 259     -10.210  -9.910   0.060  0.00  0.00           C 0
+ATOM   1390   CB SER A 280      -5.020 -10.400  -2.360  0.00  0.00           C 0
+ATOM   2033    O LYS A 411      -2.820 -12.110   0.500  0.64  2.14           O 0
+ATOM   1396    O ALA A 281      -6.010 -13.100  -5.680  0.65  4.29           O 0
+TER
+END

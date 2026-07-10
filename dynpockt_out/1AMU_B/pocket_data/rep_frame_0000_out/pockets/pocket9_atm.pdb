@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.1754
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0981
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6964
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 0.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.1128
+HEADER 10  -Pocket volume (convex hull)       : 3.1112
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   1430   CB ASN A 288     -14.350 -13.780 -16.490  0.00  0.00           C 0
+ATOM   1411    O PRO A 284     -12.020 -14.370 -14.540  0.00  0.00           O 0
+ATOM   1578    C THR A 318      -8.260 -16.960 -18.730  0.00  0.00           C 0
+ATOM   1576    N THR A 318      -9.240 -15.000 -19.840  0.67  1.09           N 0
+ATOM   1581    N ILE A 319      -8.630 -17.730 -19.660  0.00  0.00           N 0
+ATOM   1574   CB GLU A 317     -11.480 -15.630 -22.370  0.00  0.00           C 0
+ATOM   1582   CA ILE A 319      -8.830 -19.170 -19.520  0.00  0.00           C 0
+ATOM   1584   CB ILE A 319      -9.410 -19.790 -20.810  0.00  0.00           C 0
+ATOM   1580    O THR A 318      -7.970 -17.420 -17.620  0.50  2.14           O 0
+ATOM   1572   CA GLU A 317     -10.740 -14.510 -21.650  0.00  0.00           C 0
+ATOM   1410   CB PRO A 284      -9.480 -16.530 -14.530  0.00  0.00           C 0
+ATOM   1413   CA SER A 285     -13.290 -15.620 -12.570  0.00  0.00           C 0
+ATOM   1409    C PRO A 284     -11.360 -15.040 -13.760  0.00  0.00           C 0
+ATOM   1412    N SER A 285     -11.840 -15.710 -12.740  0.92  4.37           N 0
+TER
+END

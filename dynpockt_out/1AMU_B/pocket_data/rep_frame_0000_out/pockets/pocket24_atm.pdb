@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.4349
+HEADER 1  - Drug Score                        : 0.1385
+HEADER 2  - Number of alpha spheres           :    62
+HEADER 3  - Mean alpha-sphere radius          : 4.0552
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4827
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 44.4545
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 4.0455
+HEADER 9  - Pocket volume (Monte Carlo)       : 742.8572
+HEADER 10  -Pocket volume (convex hull)       : 170.4739
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 32.6667
+HEADER 13 - Number of apolar alpha sphere     :    42
+HEADER 14 - Proportion of apolar alpha sphere : 0.6774
+ATOM   1263    N THR A 255     -10.120   2.190  -6.480  0.59  1.09           N 0
+ATOM   1266   CB THR A 255      -7.750   1.910  -5.810  0.00  0.00           C 0
+ATOM   1077   CB GLU A 217      -6.870   6.640  -3.270  0.00  0.00           C 0
+ATOM   1013    O GLY A 204     -10.720   5.770  -3.490  0.60  2.14           O 0
+ATOM   1361   CB THR A 274     -11.100   2.880 -14.270  0.00  0.00           C 0
+ATOM    968   CB LEU A 195      -4.530   5.560 -14.810  0.00  0.00           C 0
+ATOM   1475   CB ILE A 297      -6.300  -1.770 -13.750  0.00  0.00           C 0
+ATOM    966   CA LEU A 195      -4.620   5.480 -16.340  0.00  0.00           C 0
+ATOM   1371   CB ILE A 276      -7.340  -0.260  -9.630  0.00  0.00           C 0
+ATOM   1075   CA GLU A 217      -5.930   7.220  -4.330  0.00  0.00           C 0
+ATOM   1008   CB ILE A 203     -10.460   9.310  -7.180  0.00  0.00           C 0
+ATOM   1257    O VAL A 253     -12.270   5.750  -8.300  0.82  1.07           O 0
+ATOM    969    O LEU A 195      -6.870   6.290 -16.390  0.00  0.00           O 0
+ATOM   1465   CB THR A 295     -11.230   0.190 -17.830  0.00  0.00           C 0
+ATOM    974    O ASN A 196      -8.210   9.580 -17.760  0.60  5.36           O 0
+ATOM    976   CA VAL A 197      -7.400  10.020 -15.130  0.00  0.00           C 0
+ATOM    998   CB ASP A 201     -11.700  10.850 -12.970  0.00  0.00           C 0
+ATOM   1356   CB GLN A 273     -15.550   4.580 -16.140  0.00  0.00           C 0
+ATOM   1554   CB VAL A 313      -5.160  -3.360 -19.250  0.00  0.00           C 0
+ATOM   1471    O TYR A 296      -8.280  -4.040 -16.210  0.67  3.21           O 0
+ATOM   1469    C TYR A 296      -8.860  -3.720 -15.180  0.00  0.00           C 0
+ATOM   1464    C THR A 295     -11.490  -1.710 -16.220  0.00  0.00           C 0
+ATOM    964    O SER A 194      -3.650   4.040 -18.700  0.00  0.00           O 0
+ATOM   1260    C ILE A 254     -11.000   2.060  -7.470  0.00  0.00           C 0
+ATOM   1258    N ILE A 254     -12.190   3.560  -8.980  0.00  0.00           N 0
+ATOM   1262    O ILE A 254     -10.960   1.110  -8.250  0.69  1.07           O 0
+ATOM   1466    O THR A 295     -11.550  -1.090 -15.160  0.00  0.00           O 0
+ATOM    948   CB PHE A 191      -2.570   9.490 -12.590  0.00  0.00           C 0
+ATOM   1092   CB MET A 220      -4.990   8.580  -8.450  0.00  0.00           C 0
+ATOM    978   CB VAL A 197      -6.680   9.760 -13.790  0.00  0.00           C 0
+ATOM   1078    O GLU A 217      -6.530   9.440  -5.080  0.00  0.00           O 0
+ATOM   1362    O THR A 274     -12.310   1.990 -11.580  0.64  1.07           O 0
+ATOM   1365    C LEU A 275     -10.300  -1.160 -11.400  0.00  0.00           C 0
+ATOM   1368    N ILE A 276      -9.670  -0.970 -10.100  0.00  0.00           N 0
+ATOM   1256   CB VAL A 253     -11.270   6.080 -11.190  0.00  0.00           C 0
+ATOM   1252    O THR A 252     -14.790   4.970 -12.450  0.72  1.07           O 0
+ATOM   1251   CB THR A 252     -15.750   8.050 -12.660  0.00  0.00           C 0
+ATOM   1250    C THR A 252     -14.820   5.930 -11.690  0.00  0.00           C 0
+ATOM   1255    C VAL A 253     -12.320   4.920  -9.210  0.00  0.00           C 0
+ATOM   1367    O LEU A 275      -9.710  -1.640 -12.360  0.54  2.14           O 0
+TER
+END

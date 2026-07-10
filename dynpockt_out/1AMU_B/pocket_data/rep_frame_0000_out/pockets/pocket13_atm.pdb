@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.2152
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8625
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4036
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 44.7000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 234.2784
+HEADER 10  -Pocket volume (convex hull)       : 8.9846
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4348
+ATOM   1949   CB TRP A 394       9.120 -12.710 -18.870  0.00  0.00           C 0
+ATOM     40    N LEU A   8      14.370  -9.050 -22.510  0.00  0.00           N 0
+ATOM     37    C TYR A   7      13.430  -8.670 -23.680  0.00  0.00           C 0
+ATOM     39    O TYR A   7      12.610  -7.750 -23.550  0.64  4.29           O 0
+ATOM     38   CB TYR A   7      12.870 -10.810 -24.830  0.00  0.00           C 0
+ATOM     41   CA LEU A   8      14.360  -8.350 -21.230  0.00  0.00           C 0
+ATOM     43   CB LEU A   8      15.300  -9.040 -20.240  0.00  0.00           C 0
+ATOM     58   CB VAL A  11       9.960  -5.940 -21.440  0.00  0.00           C 0
+ATOM   1714    N VAL A 346      12.020 -15.570 -20.710  0.33  2.19           N 0
+ATOM   1717   CB VAL A 346      10.210 -15.210 -22.380  0.00  0.00           C 0
+ATOM   1708    O LYS A 344      14.520 -14.420 -17.680  0.47  8.57           O 0
+ATOM   1955    O LEU A 395       6.360 -13.120 -21.910  0.65  3.21           O 0
+ATOM   1960    O SER A 396       5.230 -12.200 -25.560  0.62  8.57           O 0
+ATOM   1957   CA SER A 396       5.260 -14.210 -24.200  0.00  0.00           C 0
+ATOM   1967   CA GLY A 398       5.750  -9.380 -22.210  0.00  0.00           C 0
+ATOM   1969    O GLY A 398       5.840  -8.490 -20.020  0.86  5.36           O 0
+ATOM   1966    N GLY A 398       5.010 -10.390 -22.950  0.45  1.09           N 0
+ATOM     24    O GLU A   4      15.880 -11.420 -22.340  0.50  4.29           O 0
+TER
+END

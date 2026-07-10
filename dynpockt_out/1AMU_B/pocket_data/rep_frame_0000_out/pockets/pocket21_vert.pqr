@@ -1,0 +1,93 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.3489
+HEADER 1  - Drug Score                        : 0.0944
+HEADER 2  - Number of V. Vertices             :    71
+HEADER 3  - Mean alpha-sphere radius          : 3.7940
+HEADER 4  - Mean alpha-sphere SA              : 0.4461
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : 29.1111
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Volume Score                      : 4.5000
+HEADER 9  - Real volume (approximation)       : 574.2147
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 31.0000
+HEADER 12 - Number of apolar alpha sphere     :    34
+HEADER 13 - Proportion of apolar alpha sphere : 0.4789
+ATOM      1    C STP    21       3.037 -30.317  10.999    0.00     4.14
+ATOM      2    O STP    21       6.150 -28.542   9.292    0.00     3.63
+ATOM      3    O STP    21       3.077 -32.466  10.011    0.00     3.53
+ATOM      4    C STP    21       4.711 -30.181   9.443    0.00     3.58
+ATOM      5    C STP    21       4.768 -30.174   9.336    0.00     3.55
+ATOM      6    O STP    21       4.803 -30.095   9.421    0.00     3.61
+ATOM      7    O STP    21       2.333 -32.629  10.656    0.00     4.08
+ATOM      8    O STP    21       2.858 -34.598  10.536    0.00     4.02
+ATOM      9    C STP    21       0.883 -30.335  10.348    0.00     3.66
+ATOM     10    O STP    21      -0.406 -29.357   9.451    0.00     3.51
+ATOM     11    O STP    21       2.179 -32.651  10.683    0.00     4.11
+ATOM     12    O STP    21       1.402 -34.158  10.804    0.00     4.32
+ATOM     13    O STP    21       5.967 -28.478   9.362    0.00     3.75
+ATOM     14    C STP    21       4.006 -29.366  10.809    0.00     4.17
+ATOM     15    C STP    21       5.836 -28.490   9.464    0.00     3.85
+ATOM     16    C STP    21       5.208 -28.704   9.402    0.00     3.88
+ATOM     17    O STP    21       1.272 -33.900  10.933    0.00     4.27
+ATOM     18    C STP    21      -2.501 -34.023  12.429    0.00     4.43
+ATOM     19    C STP    21       1.272 -30.903  10.937    0.00     4.07
+ATOM     20    O STP    21       2.012 -32.298  10.854    0.00     4.13
+ATOM     21    C STP    21       2.616 -30.740  11.218    0.00     4.26
+ATOM     22    O STP    21       2.440 -31.459  11.070    0.00     4.14
+ATOM     23    C STP    21       2.731 -30.642  11.385    0.00     4.21
+ATOM     24    O STP    21       2.767 -30.903  11.492    0.00     4.05
+ATOM     25    O STP    21       3.422 -29.808  15.179    0.00     3.57
+ATOM     26    C STP    21       3.405 -29.747  15.109    0.00     3.59
+ATOM     27    O STP    21       5.799 -28.629   9.613    0.00     3.91
+ATOM     28    O STP    21       6.332 -28.718   9.323    0.00     3.53
+ATOM     29    O STP    21       5.142 -29.152   9.852    0.00     4.08
+ATOM     30    O STP    21       5.138 -29.117   9.885    0.00     4.10
+ATOM     31    O STP    21       5.158 -29.099   9.854    0.00     4.09
+ATOM     32    O STP    21       3.550 -29.739  15.231    0.00     3.54
+ATOM     33    O STP    21       4.216 -28.644  15.296    0.00     3.42
+ATOM     34    C STP    21       4.669 -27.876  14.624    0.00     3.41
+ATOM     35    C STP    21       3.448 -29.663  15.073    0.00     3.59
+ATOM     36    O STP    21       3.871 -28.468  14.809    0.00     3.63
+ATOM     37    C STP    21       5.899 -28.709  10.649    0.00     3.81
+ATOM     38    O STP    21       5.416 -29.015  10.491    0.00     3.95
+ATOM     39    C STP    21       3.334 -29.567  14.801    0.00     3.65
+ATOM     40    C STP    21       3.162 -29.234  14.240    0.00     3.81
+ATOM     41    C STP    21       3.936 -29.456  11.095    0.00     4.11
+ATOM     42    C STP    21       4.038 -29.349  10.986    0.00     4.15
+ATOM     43    C STP    21       3.096 -29.298  13.664    0.00     3.85
+ATOM     44    C STP    21       3.094 -29.211  13.813    0.00     3.87
+ATOM     45    C STP    21      -0.672 -30.460  11.682    0.00     3.78
+ATOM     46    O STP    21      -1.414 -30.536  10.382    0.00     3.71
+ATOM     47    O STP    21      -1.035 -30.003  10.321    0.00     3.80
+ATOM     48    C STP    21      -2.575 -32.749  12.212    0.00     4.23
+ATOM     49    C STP    21      -0.763 -30.960  11.160    0.00     4.08
+ATOM     50    C STP    21      -0.625 -30.777  11.145    0.00     4.10
+ATOM     51    O STP    21      -2.133 -31.541  13.035    0.00     3.40
+ATOM     52    O STP    21      -2.231 -31.698  13.007    0.00     3.48
+ATOM     53    C STP    21       3.227 -28.984  13.811    0.00     3.83
+ATOM     54    C STP    21       6.658 -27.383  12.381    0.00     3.46
+ATOM     55    C STP    21       8.389 -27.118  13.872    0.00     3.74
+ATOM     56    O STP    21       3.874 -29.700  15.563    0.00     3.41
+ATOM     57    O STP    21       3.376 -30.141  15.628    0.00     3.41
+ATOM     58    C STP    21       5.139 -27.490  13.383    0.00     3.44
+ATOM     59    C STP    21       4.586 -27.649  14.240    0.00     3.58
+ATOM     60    C STP    21       3.959 -28.188  13.083    0.00     3.70
+ATOM     61    C STP    21       3.479 -28.653  13.652    0.00     3.76
+ATOM     62    C STP    21       4.540 -27.664  13.546    0.00     3.60
+ATOM     63    O STP    21       4.536 -27.694  14.286    0.00     3.58
+ATOM     64    C STP    21       4.581 -27.650  14.240    0.00     3.58
+ATOM     65    O STP    21       3.821 -28.370  14.644    0.00     3.68
+ATOM     66    O STP    21       3.704 -28.198  14.759    0.00     3.50
+ATOM     67    O STP    21       3.469 -28.679  14.130    0.00     3.75
+ATOM     68    O STP    21       4.502 -27.512  14.346    0.00     3.44
+ATOM     69    O STP    21       4.578 -27.643  14.244    0.00     3.57
+ATOM     70    O STP    21       3.576 -28.590  14.411    0.00     3.73
+ATOM     71    O STP    21       3.441 -28.317  14.603    0.00     3.45
+TER
+END

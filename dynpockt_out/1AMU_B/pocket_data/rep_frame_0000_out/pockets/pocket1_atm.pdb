@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : -0.0221
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7808
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6639
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -2.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.9666
+HEADER 10  -Pocket volume (convex hull)       : 10.0468
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   1642   CB ASN A 331      10.880   6.050 -14.450  0.00  0.00           C 0
+ATOM     76   CA LYS A  15      12.190   5.560 -19.790  0.00  0.00           C 0
+ATOM     84    O ALA A  16      10.540   9.720 -18.160  0.56  2.14           O 0
+ATOM     78   CB LYS A  15      13.540   5.870 -20.440  0.00  0.00           C 0
+ATOM     80    N ALA A  16      10.750   7.390 -19.690  0.00  0.00           N 0
+ATOM   1640   CA ASN A 331      10.840   4.670 -15.120  0.00  0.00           C 0
+ATOM     75    N LYS A  15      11.840   4.160 -19.980  0.65  2.19           N 0
+ATOM     64    O ASN A  12      13.170  -0.040 -19.660  0.67  7.50           O 0
+ATOM   1648    O THR A 332      10.560  -0.160 -15.470  0.00  0.00           O 0
+ATOM   1652   CB GLN A 333      14.140  -1.650 -14.750  0.00  0.00           C 0
+ATOM   1646    C THR A 332      11.030   0.060 -14.350  0.00  0.00           C 0
+ATOM   1762   CA GLY A 356      13.760   2.510 -11.150  0.00  0.00           C 0
+ATOM   1643    O ASN A 331      11.680   3.710 -13.080  0.55  2.14           O 0
+ATOM   1649    N GLN A 333      12.060  -0.700 -13.860  0.00  0.00           N 0
+ATOM   1641    C ASN A 331      10.980   3.570 -14.070  0.00  0.00           C 0
+ATOM   1644    N THR A 332      10.270   2.400 -14.290  0.00  0.00           N 0
+ATOM     73   CB THR A  14       9.760   1.400 -18.660  0.00  0.00           C 0
+TER
+END
