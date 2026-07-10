@@ -1,1 +1,653 @@
+[2026-07-08 11:47:08] [INFO] ==================================================
+[2026-07-08 11:47:08] [INFO] DynPocket-Analyzer 初始化启动...
+[2026-07-08 11:47:08] [INFO] 输出目录已设定为: ./dynpocket_out
+[2026-07-08 11:47:08] [INFO] 参数解析完成，等待进入输入与一致性校验模块。
+[2026-07-08 11:48:02] [INFO] ==================================================
+[2026-07-08 11:48:02] [INFO] DynPocket-Analyzer 初始化启动...
+[2026-07-08 11:48:02] [INFO] 输出目录已设定为: ./dynpocket_out
+[2026-07-08 11:48:02] [INFO] 参数解析完成，等待进入输入与一致性校验模块。
+[2026-07-08 11:53:05] [INFO] ==================================================
+[2026-07-08 11:53:05] [INFO] DynPocket-Analyzer 初始化启动...
+[2026-07-08 11:53:05] [INFO] 输出目录已设定为: ./dynpocket_out
+[2026-07-08 11:53:05] [INFO] 🔍 正在解析输入文件并执行强制一致性校验...
+[2026-07-08 11:53:05] [INFO]    [FASTA] 提取序列: pcaG (长度: 201 AA)
+[2026-07-08 11:53:05] [INFO]    [PDB] 提取多肽序列成功 (长度: 201 AA)
+[2026-07-08 11:53:05] [INFO] ✅ 强制一致性校验通过：FASTA 与 PDB 序列完美对应。
+[2026-07-08 11:53:05] [INFO] Step 1/3: 调用 BioEmu 生成 2 个构象骨架...
+[2026-07-09 00:47:17] [INFO] ==================================================
+[2026-07-09 00:47:17] [INFO] DynPocket-Analyzer 初始化启动...
+[2026-07-09 00:47:17] [INFO] 输出目录已设定为: ./dynpocket_out
+[2026-07-09 00:47:17] [INFO] 🔍 正在解析输入文件并执行强制一致性校验...
+[2026-07-09 00:47:17] [INFO]    [FASTA] 提取序列: pcaG (长度: 201 AA)
+[2026-07-09 00:47:17] [INFO]    [PDB] 提取多肽序列成功 (长度: 201 AA)
+[2026-07-09 00:47:17] [INFO] ✅ 强制一致性校验通过：FASTA 与 PDB 序列完美对应。
+[2026-07-09 00:47:17] [INFO] Step 1/3: 调用 BioEmu 生成 2 个构象骨架...
+[2026-07-09 01:10:54] [INFO] ==================================================
+[2026-07-09 01:10:54] [INFO] DynPocket-Analyzer 初始化启动...
+[2026-07-09 01:10:54] [INFO] 输出目录已设定为: ./dynpocket_out
+[2026-07-09 01:10:54] [INFO] 🔍 正在解析输入文件并执行强制一致性校验...
+[2026-07-09 01:10:54] [INFO]    [FASTA] 提取序列: pcaG (长度: 201 AA)
+[2026-07-09 01:10:54] [INFO]    [PDB] 提取多肽序列成功 (长度: 201 AA)
+[2026-07-09 01:10:54] [INFO] ✅ 强制一致性校验通过：FASTA 与 PDB 序列完美对应。
+[2026-07-09 01:10:54] [INFO] Step 1/3: 调用 BioEmu 生成 2 个构象骨架...
+[2026-07-09 01:12:13] [ERROR] ❌ BioEmu 执行失败！
+报错信息: /QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/torch/__config__.py:9: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12020). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /__w/pytorch/pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._show_config()
+DEBUG:httpcore.connection:connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=3 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.failed exception=ConnectError(OSError(101, 'Network is unreachable'))
+DEBUG:httpcore.connection:connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=10 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.failed exception=ConnectError(OSError(101, 'Network is unreachable'))
+DEBUG:httpcore.connection:connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=60 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.failed exception=ConnectError(OSError(101, 'Network is unreachable'))
+'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/microsoft/bioemu/resolve/main/checkpoints/bioemu-v1.1/checkpoint.ckpt
+WARNING:huggingface_hub.utils._http:'[Errno 101] Network is unreachable' thrown while requesting HEAD https://huggingface.co/microsoft/bioemu/resolve/main/checkpoints/bioemu-v1.1/checkpoint.ckpt
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/utils.py", line 59, in with_stackprint
+    56   @functools.wraps(func)
+    57   def with_stackprint(*args: P.args, **kwargs: P.kwargs) -> T:
+    58       try:
+--> 59           return func(*args, **kwargs)
+    60       except:
+    ..................................................
+     functools.wraps = <function 'wraps' functools.py:65>
+     func = <function 'main' _contextlib.py:120>
+     args = ('test_data/test.fasta', 2, './dynpocket_out/pcaG/bioemu_out
+             ', 10, 'bioemu-v1.1', None, None, 'dpm', None, None, None, N
+             one, True, None, None, )
+     P.args = P.args
+     kwargs = {}
+     P.kwargs = P.kwargs
+     T = ~T
+    ..................................................
 
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    120  @functools.wraps(func)
+    121  def decorate_context(*args, **kwargs):
+    122      # pyrefly: ignore [bad-context-manager]
+    123      with ctx_factory():
+--> 124          return func(*args, **kwargs)
+    ..................................................
+     functools.wraps = <function 'wraps' functools.py:65>
+     func = <function 'main' sample.py:70>
+     args = ('test_data/test.fasta', 2, './dynpocket_out/pcaG/bioemu_out
+             ', 10, 'bioemu-v1.1', None, None, 'dpm', None, None, None, N
+             one, True, None, None, )
+     kwargs = {}
+     ctx_factory = <method '_DecoratorContextManager.clone' of <torch.autograd.
+                    grad_mode.no_grad object at 0x7f73a83f2dd0> _contextlib.py:1
+                    54>
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/sample.py", line 182, in main
+    72   def main(
+    73       sequence: str | Path,
+    74       num_samples: int,
+    75       output_dir: str | Path,
+    76       batch_size_100: int = 10,
+    77       model_name: Literal["bioemu-v1.0", "bioemu-v1.1", "bioemu-v1.2"] | None = "bioemu-v1.1",
+    78       ckpt_path: str | Path | None = None,
+    79       model_config_path: str | Path | None = None,
+    80       denoiser_type: SupportedDenoisersLiteral | None = "dpm",
+    81       denoiser_config: str | Path | dict | None = None,
+    82       cache_embeds_dir: str | Path | None = None,
+    83       cache_so3_dir: str | Path | None = None,
+    84       msa_host_url: str | None = None,
+    85       filter_samples: bool = True,
+    86       steering_config: str | Path | dict | None = None,
+    87       base_seed: int | None = None,
+    88   ) -> None:
+ (...)
+    178  
+    179      else:
+    180          potentials = None
+    181  
+--> 182      ckpt_path, model_config_path = maybe_download_checkpoint(
+    183          model_name=model_name, ckpt_path=ckpt_path, model_config_path=model_config_path
+    ..................................................
+     sequence = 'test_data/test.fasta'
+     num_samples = 2
+     output_dir = PosixPath('/QD-bgi-LM/home/qinlw/dynpocket_out/pcaG/bioemu_o
+                   ut')
+     batch_size_100 = 10
+     model_name = 'bioemu-v1.1'
+     ckpt_path = None
+     model_config_path = None
+     denoiser_type = 'dpm'
+     denoiser_config = None
+     cache_embeds_dir = None
+     cache_so3_dir = None
+     msa_host_url = None
+     filter_samples = True
+     steering_config = None
+     base_seed = 1783559461040511273
+     potentials = None
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/model_utils.py", line 35, in maybe_download_checkpoint
+    16   def maybe_download_checkpoint(
+    17       *,
+    18       model_name: str | None,
+    19       ckpt_path: str | Path | None = None,
+    20       model_config_path: str | Path | None = None,
+    21   ) -> tuple[str, str]:
+ (...)
+    31           model_config_path is None
+    32       ), f"Named model {model_name} comes with its own config. Do not provide model_config_path."
+    33   
+    34       try:
+--> 35           ckpt_path = hf_hub_download(
+    36               repo_id="microsoft/bioemu", filename=f"checkpoints/{model_name}/checkpoint.ckpt"
+    ..................................................
+     model_name = 'bioemu-v1.1'
+     ckpt_path = None
+     model_config_path = None
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    78   def _inner_fn(*args, **kwargs):
+ (...)
+    84               validate_repo_id(arg_value)
+    85   
+    86       kwargs = smoothly_deprecate_legacy_arguments(fn_name=fn.__name__, kwargs=kwargs)
+    87   
+--> 88       return fn(*args, **kwargs)
+    ..................................................
+     args = ()
+     kwargs = {'repo_id': 'microsoft/bioemu',
+               'filename': 'checkpoints/bioemu-v1.1/checkpoint.ckpt'}
+     arg_value = 'checkpoints/bioemu-v1.1/checkpoint.ckpt'
+     fn.__name__ = 'hf_hub_download'
+     fn = <function 'hf_hub_download' file_download.py:831>
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    832  def hf_hub_download(
+    833      repo_id: str,
+    834      filename: str,
+    835      *,
+    836      subfolder: str | None = None,
+    837      repo_type: str | None = None,
+    838      revision: str | None = None,
+    839      library_name: str | None = None,
+    840      library_version: str | None = None,
+    841      cache_dir: str | Path | None = None,
+    842      local_dir: str | Path | None = None,
+    843      user_agent: dict | str | None = None,
+    844      force_download: bool = False,
+    845      etag_timeout: float = constants.DEFAULT_ETAG_TIMEOUT,
+    846      token: bool | str | None = None,
+    847      local_files_only: bool = False,
+    848      headers: dict[str, str] | None = None,
+    849      endpoint: str | None = None,
+    850      tqdm_class: type[base_tqdm] | None = None,
+    851      dry_run: bool = False,
+    852  ) -> str | DryRunFileInfo:
+ (...)
+    1014              tqdm_class=tqdm_class,
+    1015              dry_run=dry_run,
+    1016          )
+    1017      else:
+--> 1018          return _hf_hub_download_to_cache_dir(
+    1019              # Destination
+    ..................................................
+     repo_id = 'microsoft/bioemu'
+     filename = 'checkpoints/bioemu-v1.1/checkpoint.ckpt'
+     subfolder = None
+     repo_type = 'model'
+     revision = 'main'
+     library_name = None
+     library_version = None
+     cache_dir = '/QD-bgi-LM/home/qinlw/.cache/huggingface/hub'
+     local_dir = None
+     user_agent = None
+     force_download = False
+     etag_timeout = 10
+     constants.DEFAULT_ETAG_TIMEOUT = 10
+     token = None
+     local_files_only = False
+     headers = None
+     endpoint = None
+     tqdm_class = None
+     dry_run = False
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1152, in _hf_hub_download_to_cache_dir
+    1039  def _hf_hub_download_to_cache_dir(
+    1040      *,
+    1041      # Destination
+    1042      cache_dir: str,
+    1043      # File info
+    1044      repo_id: str,
+    1045      filename: str,
+    1046      repo_type: str,
+    1047      revision: str,
+    1048      # HTTP info
+    1049      endpoint: str | None,
+    1050      etag_timeout: float,
+    1051      headers: dict[str, str],
+    1052      token: bool | str | None,
+    1053      # Additional options
+    1054      local_files_only: bool,
+    1055      force_download: bool,
+    1056      tqdm_class: type[base_tqdm] | None,
+    1057      dry_run: bool,
+    1058  ) -> str | DryRunFileInfo:
+ (...)
+    1148                  and head_call_error.response.status_code in _DEFAULT_RETRY_ON_STATUS_CODES
+    1149              ):
+    1150                  logger.info("No local file found. Retrying..")
+    1151                  (url_to_download, etag, commit_hash, expected_size, xet_file_data, head_call_error) = (
+--> 1152                      _get_metadata_or_catch_error(
+    1153                          repo_id=repo_id,
+    ..................................................
+     cache_dir = '/QD-bgi-LM/home/qinlw/.cache/huggingface/hub'
+     repo_id = 'microsoft/bioemu'
+     filename = 'checkpoints/bioemu-v1.1/checkpoint.ckpt'
+     repo_type = 'model'
+     revision = 'main'
+     endpoint = None
+     etag_timeout = 10
+     headers = {'user-agent': 'unknown/None; hf_hub/1.22.0; python/3.10.20;
+                 torch/2.13.0'}
+     token = None
+     local_files_only = False
+     force_download = False
+     tqdm_class = None
+     dry_run = False
+     head_call_error.response.status_code = # AttributeError
+          head_call_error = ConnectError('[Errno 101] Network is unrea
+           chable')
+     _DEFAULT_RETRY_ON_STATUS_CODES = (408, 429, 500, 502, 503, 504, )
+     logger.info = <method 'Logger.info' of <Logger huggingface_hub.file_downlo
+                    ad (WARNING)> __init__.py:1467>
+     url_to_download = 'https://huggingface.co/microsoft/bioemu/resolve/main/checkp
+                        oints/bioemu-v1.1/checkpoint.ckpt'
+     etag = None
+     commit_hash = None
+     expected_size = None
+     xet_file_data = None
+     head_call_error = ConnectError('[Errno 101] Network is unreachable')
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1712, in _get_metadata_or_catch_error
+    1642  def _get_metadata_or_catch_error(
+    1643      *,
+    1644      repo_id: str,
+    1645      filename: str,
+    1646      repo_type: str,
+    1647      revision: str,
+    1648      endpoint: str | None,
+    1649      etag_timeout: float | None,
+    1650      headers: dict[str, str],  # mutated inplace!
+    1651      token: bool | str | None,
+    1652      local_files_only: bool,
+    1653      relative_filename: str | None = None,  # only used to store `.no_exists` in cache
+    1654      storage_folder: str | None = None,  # only used to store `.no_exists` in cache
+    1655      retry_on_errors: bool = False,
+    1656      tree_cache_folder: str | None = None,  # if set, read the on-disk tree listing to skip the HEAD call
+    1657  ) -> (
+ (...)
+    1708      # Do not raise yet if the file is not found or not accessible.
+    1709      if not local_files_only:
+    1710          try:
+    1711              try:
+--> 1712                  metadata = get_hf_file_metadata(
+    1713                      url=url,
+    ..................................................
+     repo_id = 'microsoft/bioemu'
+     filename = 'checkpoints/bioemu-v1.1/checkpoint.ckpt'
+     repo_type = 'model'
+     revision = 'main'
+     endpoint = None
+     etag_timeout = 60
+     headers = {'user-agent': 'unknown/None; hf_hub/1.22.0; python/3.10.20;
+                 torch/2.13.0'}
+     token = None
+     local_files_only = False
+     relative_filename = 'checkpoints/bioemu-v1.1/checkpoint.ckpt'
+     storage_folder = '/QD-bgi-LM/home/qinlw/.cache/huggingface/hub/models--micros
+                       oft--bioemu'
+     retry_on_errors = True
+     tree_cache_folder = None
+     url = 'https://huggingface.co/microsoft/bioemu/resolve/main/checkp
+            oints/bioemu-v1.1/checkpoint.ckpt'
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    78   def _inner_fn(*args, **kwargs):
+ (...)
+    84               validate_repo_id(arg_value)
+    85   
+    86       kwargs = smoothly_deprecate_legacy_arguments(fn_name=fn.__name__, kwargs=kwargs)
+    87   
+--> 88       return fn(*args, **kwargs)
+    ..................................................
+     args = ()
+     kwargs = {'url': 'https://huggingface.co/microsoft/bioemu/resolve/mai
+               n/checkpoints/bioemu-v1.1/checkpoint.ckpt',
+               'timeout': 60,
+               'headers': {'user-agent': 'unknown/None; hf_hub/1.22.0; pyt
+               hon/3.10.20; torch/2.13.0'},
+               'token': None,
+               'endpoint': None,
+               'retry_on_errors': True}
+     arg_value = True
+     fn.__name__ = 'get_hf_file_metadata'
+     fn = <function 'get_hf_file_metadata' file_download.py:1567>
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1620, in get_hf_file_metadata
+    1568  def get_hf_file_metadata(
+    1569      url: str,
+    1570      token: bool | str | None = None,
+    1571      timeout: float | None = constants.HF_HUB_ETAG_TIMEOUT,
+    1572      library_name: str | None = None,
+    1573      library_version: str | None = None,
+    1574      user_agent: dict | str | None = None,
+    1575      headers: dict[str, str] | None = None,
+    1576      endpoint: str | None = None,
+    1577      retry_on_errors: bool = False,
+    1578  ) -> HfFileMetadata:
+ (...)
+    1616      )
+    1617      hf_headers["Accept-Encoding"] = "identity"  # prevent any compression => we want to know the real size of the file
+    1618  
+    1619      # Retrieve metadata
+--> 1620      response = _httpx_follow_relative_redirects_with_backoff(
+    1621          method="HEAD", url=url, headers=hf_headers, timeout=timeout, retry_on_errors=retry_on_errors
+    ..................................................
+     url = 'https://huggingface.co/microsoft/bioemu/resolve/main/checkp
+            oints/bioemu-v1.1/checkpoint.ckpt'
+     token = None
+     timeout = 60
+     constants.HF_HUB_ETAG_TIMEOUT = 10
+     library_name = None
+     library_version = None
+     user_agent = None
+     headers = {'user-agent': 'unknown/None; hf_hub/1.22.0; python/3.10.20;
+                 torch/2.13.0'}
+     endpoint = None
+     retry_on_errors = True
+     hf_headers = {'user-agent': 'unknown/None; hf_hub/1.22.0; python/3.10.20;
+                    torch/2.13.0',
+                   'Accept-Encoding': 'identity'}
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 719, in _httpx_follow_relative_redirects_with_backoff
+    691  def _httpx_follow_relative_redirects_with_backoff(
+    692      method: HTTP_METHOD_T, url: str, *, retry_on_errors: bool = False, **httpx_kwargs
+    693  ) -> httpx.Response:
+ (...)
+    715          {} if retry_on_errors else {"retry_on_exceptions": (), "retry_on_status_codes": ()}
+    716      )
+    717  
+    718      while True:
+--> 719          response = http_backoff(
+    720              method=method,
+    ..................................................
+     method = 'HEAD'
+     url = 'https://huggingface.co/microsoft/bioemu/resolve/main/checkp
+            oints/bioemu-v1.1/checkpoint.ckpt'
+     retry_on_errors = True
+     httpx_kwargs = {'headers': {'user-agent': 'unknown/None; hf_hub/1.22.0; pyt
+                     hon/3.10.20; torch/2.13.0',
+                                 'Accept-Encoding': 'identity'},
+                     'timeout': 60}
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 596, in http_backoff
+    531  def http_backoff(
+    532      method: HTTP_METHOD_T,
+    533      url: str,
+    534      *,
+    535      max_retries: int = 5,
+    536      base_wait_time: float = 1,
+    537      max_wait_time: float = 8,
+    538      retry_on_exceptions: type[Exception] | tuple[type[Exception], ...] = _DEFAULT_RETRY_ON_EXCEPTIONS,
+    539      retry_on_status_codes: int | tuple[int, ...] = _DEFAULT_RETRY_ON_STATUS_CODES,
+    540      **kwargs,
+    541  ) -> httpx.Response:
+ (...)
+    592      > cursor between each call (with `data.seek()`). For arbitrary iterators, http backoff
+    593      > will fail. If this is a hard constraint for you, please let us know by opening an
+    594      > issue on [Github](https://github.com/huggingface/huggingface_hub).
+    595      """
+--> 596      return next(
+    597          _http_backoff_base(
+    ..................................................
+     method = 'HEAD'
+     url = 'https://huggingface.co/microsoft/bioemu/resolve/main/checkp
+            oints/bioemu-v1.1/checkpoint.ckpt'
+     max_retries = 5
+     base_wait_time = 1
+     max_wait_time = 8
+     retry_on_exceptions = (<class 'httpx.TimeoutException'>, <class 'httpx.NetworkErro
+                            r'>, <class 'httpx.RemoteProtocolError'>, )
+     _DEFAULT_RETRY_ON_EXCEPTIONS = (<class 'httpx.TimeoutException'>, <class 'httpx.NetworkErro
+                                     r'>, <class 'httpx.RemoteProtocolError'>, )
+     retry_on_status_codes = (408, 429, 500, 502, 503, 504, )
+     _DEFAULT_RETRY_ON_STATUS_CODES = (408, 429, 500, 502, 503, 504, )
+     kwargs = {'headers': {'user-agent': 'unknown/None; hf_hub/1.22.0; pyt
+               hon/3.10.20; torch/2.13.0',
+                           'Accept-Encoding': 'identity'},
+               'timeout': 60,
+               'follow_redirects': False}
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 504, in _http_backoff_base
+    431  def _http_backoff_base(
+    432      method: HTTP_METHOD_T,
+    433      url: str,
+    434      *,
+    435      max_retries: int = 5,
+    436      base_wait_time: float = 1,
+    437      max_wait_time: float = 8,
+    438      retry_on_exceptions: type[Exception] | tuple[type[Exception], ...] = _DEFAULT_RETRY_ON_EXCEPTIONS,
+    439      retry_on_status_codes: int | tuple[int, ...] = _DEFAULT_RETRY_ON_STATUS_CODES,
+    440      stream: bool = False,
+    441      **kwargs,
+    442  ) -> Generator[httpx.Response, None, None]:
+ (...)
+    500                      if not _should_retry(response):
+    501                          yield response
+    502                          return
+    503              else:
+--> 504                  response = client.request(method=method, url=url, **kwargs)
+    505                  if not _should_retry(response):
+    ..................................................
+     method = 'HEAD'
+     url = 'https://huggingface.co/microsoft/bioemu/resolve/main/checkp
+            oints/bioemu-v1.1/checkpoint.ckpt'
+     max_retries = 5
+     base_wait_time = 1
+     max_wait_time = 8
+     retry_on_exceptions = (<class 'httpx.TimeoutException'>, <class 'httpx.NetworkErro
+                            r'>, <class 'httpx.RemoteProtocolError'>, )
+     _DEFAULT_RETRY_ON_EXCEPTIONS = (<class 'httpx.TimeoutException'>, <class 'httpx.NetworkErro
+                                     r'>, <class 'httpx.RemoteProtocolError'>, )
+     retry_on_status_codes = (408, 429, 500, 502, 503, 504, )
+     _DEFAULT_RETRY_ON_STATUS_CODES = (408, 429, 500, 502, 503, 504, )
+     stream = False
+     kwargs = {'headers': {'user-agent': 'unknown/None; hf_hub/1.22.0; pyt
+               hon/3.10.20; torch/2.13.0',
+                           'Accept-Encoding': 'identity'},
+               'timeout': 60,
+               'follow_redirects': False}
+     _should_retry = <function '_http_backoff_base.<locals>._should_retry' _http.
+                      py:472>
+     client.request = <method 'Client.request' of <httpx.Client object at 0x7f72cd
+                       74d750> _client.py:771>
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/httpx/_client.py", line 825, in request
+    771  def request(
+    772      self,
+    773      method: str,
+    774      url: URL | str,
+    775      *,
+    776      content: RequestContent | None = None,
+    777      data: RequestData | None = None,
+    778      files: RequestFiles | None = None,
+    779      json: typing.Any | None = None,
+    780      params: QueryParamTypes | None = None,
+    781      headers: HeaderTypes | None = None,
+    782      cookies: CookieTypes | None = None,
+    783      auth: AuthTypes | UseClientDefault | None = USE_CLIENT_DEFAULT,
+    784      follow_redirects: bool | UseClientDefault = USE_CLIENT_DEFAULT,
+    785      timeout: TimeoutTypes | UseClientDefault = USE_CLIENT_DEFAULT,
+    786      extensions: RequestExtensions | None = None,
+    787  ) -> Response:
+ (...)
+    821          cookies=cookies,
+    822          timeout=timeout,
+    823          extensions=extensions,
+    824      )
+--> 825      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+    ..................................................
+     request = <Request('HEAD', 'https://huggingface.co/microsoft/bioemu/re
+                solve/main/checkpoints/bioemu-v1.1/checkpoint.ckpt')>
+     self = <httpx.Client object at 0x7f72cd74d750>
+     method = 'HEAD'
+     url = 'https://huggingface.co/microsoft/bioemu/resolve/main/checkp
+            oints/bioemu-v1.1/checkpoint.ckpt'
+     content = None
+     data = None
+     files = None
+     json = None
+     params = None
+     headers = {'user-agent': 'unknown/None; hf_hub/1.22.0; python/3.10.20;
+                 torch/2.13.0',
+                'Accept-Encoding': 'identity'}
+     cookies = None
+     auth = <httpx._client.UseClientDefault object at 0x7f72ce0fd7e0>
+     USE_CLIENT_DEFAULT = <httpx._client.UseClientDefault object at 0x7f72ce0fd7e0>
+     follow_redirects = False
+     timeout = 60
+     extensions = None
+     self.send = <method 'Client.send' of <httpx.Client object at 0x7f72cd74d
+                  750> _client.py:879>
+    ..................................................
+
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/httpx/_client.py", line 901, in send
+    879  def send(
+    880      self,
+    881      request: Request,
+    882      *,
+    883      stream: bool = False,
+    884      auth: AuthTypes | UseClientDefault | None = USE_CLIENT_DEFAULT,
+    885      follow_redirects: bool | UseClientDefault = USE_CLIENT_DEFAULT,
+    886  ) -> Response:
+ (...)
+    897  
+    898      [0]: /advanced/clients/#request-instances
+    899      """
+    900      if self._state == ClientState.CLOSED:
+--> 901          raise RuntimeError("Cannot send a request, as the client has been closed.")
+    902  
+    ..................................................
+     self = <httpx.Client object at 0x7f72cd74d750>
+     request = <Request('HEAD', 'https://huggingface.co/microsoft/bioemu/re
+                solve/main/checkpoints/bioemu-v1.1/checkpoint.ckpt')>
+     stream = False
+     auth = <httpx._client.UseClientDefault object at 0x7f72ce0fd7e0>
+     USE_CLIENT_DEFAULT = <httpx._client.UseClientDefault object at 0x7f72ce0fd7e0>
+     follow_redirects = False
+     self._state = <ClientState.CLOSED: 3>
+     ClientState.CLOSED = <ClientState.CLOSED: 3>
+    ..................................................
+
+---- (full traceback above) ----
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/utils.py", line 59, in with_stackprint
+    return func(*args, **kwargs)
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/sample.py", line 182, in main
+    ckpt_path, model_config_path = maybe_download_checkpoint(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/model_utils.py", line 35, in maybe_download_checkpoint
+    ckpt_path = hf_hub_download(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1152, in _hf_hub_download_to_cache_dir
+    _get_metadata_or_catch_error(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1712, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1620, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 719, in _httpx_follow_relative_redirects_with_backoff
+    response = http_backoff(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 596, in http_backoff
+    return next(
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 504, in _http_backoff_base
+    response = client.request(method=method, url=url, **kwargs)
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/httpx/_client.py", line 901, in send
+    raise RuntimeError("Cannot send a request, as the client has been closed.")
+
+RuntimeError: Cannot send a request, as the client has been closed.
+Traceback (most recent call last):
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/sample.py", line 406, in <module>
+    fire.Fire(main)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/fire/core.py", line 135, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/fire/core.py", line 468, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/fire/core.py", line 684, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/utils.py", line 59, in with_stackprint
+    return func(*args, **kwargs)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/sample.py", line 182, in main
+    ckpt_path, model_config_path = maybe_download_checkpoint(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/bioemu/model_utils.py", line 35, in maybe_download_checkpoint
+    ckpt_path = hf_hub_download(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1018, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1152, in _hf_hub_download_to_cache_dir
+    _get_metadata_or_catch_error(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1712, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1620, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 719, in _httpx_follow_relative_redirects_with_backoff
+    response = http_backoff(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 596, in http_backoff
+    return next(
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/huggingface_hub/utils/_http.py", line 504, in _http_backoff_base
+    response = client.request(method=method, url=url, **kwargs)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/QD-bgi-LM/home/qinlw/miniconda3/envs/dynpocket_env/lib/python3.10/site-packages/httpx/_client.py", line 901, in send
+    raise RuntimeError("Cannot send a request, as the client has been closed.")
+RuntimeError: Cannot send a request, as the client has been closed.
+
+[2026-07-09 01:19:41] [INFO] ==================================================
+[2026-07-09 01:19:41] [INFO] DynPocket-Analyzer 初始化启动...
+[2026-07-09 01:19:41] [INFO] 输出目录已设定为: ./dynpocket_out
+[2026-07-09 01:19:41] [INFO] 🔍 正在解析输入文件并执行强制一致性校验...
+[2026-07-09 01:19:41] [INFO]    [FASTA] 提取序列: pcaG (长度: 201 AA)
+[2026-07-09 01:19:41] [INFO]    [PDB] 提取多肽序列成功 (长度: 201 AA)
+[2026-07-09 01:19:41] [INFO] ✅ 强制一致性校验通过：FASTA 与 PDB 序列完美对应。
+[2026-07-09 01:19:41] [INFO] Step 1/3: 调用 BioEmu 生成 2 个构象骨架...
+[2026-07-09 02:08:16] [INFO] ==================================================
+[2026-07-09 02:08:16] [INFO] DynPocket-Analyzer 初始化启动...
+[2026-07-09 02:08:16] [INFO] 输出目录已设定为: ./dynpocket_out
+[2026-07-09 02:08:16] [INFO] 🔍 正在解析输入文件并执行强制一致性校验...
+[2026-07-09 02:08:16] [INFO]    [FASTA] 提取序列: pcaG (长度: 201 AA)
+[2026-07-09 02:08:16] [INFO]    [PDB] 提取多肽序列成功 (长度: 201 AA)
+[2026-07-09 02:08:16] [INFO] ✅ 强制一致性校验通过：FASTA 与 PDB 序列完美对应。
+[2026-07-09 02:08:16] [INFO] Step 1/3: 调用 BioEmu 生成 2 个构象骨架...
