@@ -1,4 +1,3 @@
-```markdown
 # DynPocket
 
 Dynamic pocket analysis pipeline software – an integrated toolkit for flexible protein dynamic active-site feature extraction and analysis, specifically designed for enzymes with a single major active pocket that exhibits significant conformational changes during catalysis.
